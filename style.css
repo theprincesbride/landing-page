@@ -1,14 +1,16 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: 'Playfair Display' 'Baskerville' Georgia, 'Times New Roman', Times, serif;
 }
 
 .header {
     background-color: #1F2937;
     display: flex;
     flex: 1 1 0;
-    padding: 10px;
+    padding: 10px 100px;
     justify-content: space-between;
+    
 
 }
 
@@ -43,15 +45,50 @@ body {
 
 .hero {
     background-color: #1F2937;
+    display: flex;
+    padding: 100px;
+    gap: 50px;
+    
+}
+
+.hero-left-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+            
 }
 
 .hero-title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .hero-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 10px;
+   
+}
+
+.hero-button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border-style: none;
+
+  
+}
+
+.hero-image {
+    max-width: 50%;
+    height: auto;
+    
 }
