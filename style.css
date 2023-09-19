@@ -146,3 +146,35 @@ body {
 
 }
 
+.testimonial-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 250px;
+    padding-right: 200px;
+   
+}
+
+.testimonial-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.customer-name {
+    font-size: 25px;
+    font-weight: 700;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+
