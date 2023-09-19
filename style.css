@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Playfair Display' 'Baskerville' Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
 }
 
 .header {
@@ -92,3 +93,56 @@ body {
     height: auto;
     
 }
+
+
+.key-features-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.key-features-container {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    flex-wrap: wrap;    
+        
+}
+
+.key-features-subcontainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    height: auto;
+    flex-wrap: wrap;
+    margin: 0;
+   
+}
+.key-features-image {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #3882F6;
+    border-radius: 10px;
+    max-height: 200px;
+    width: auto;
+}
+
+.key-features-head {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.key-features-text {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+
+}
+
